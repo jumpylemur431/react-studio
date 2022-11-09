@@ -1,9 +1,42 @@
 /* Add styling for your page here */
-
 .App {
+    background-color: #fffbdf;
+}
+
+.root{
+    display: flex;
+    justify-content: center;
+}
+
+h1 {
+    text-align: center;
+    font-size: 4vw;
+    margin-top: 0;
+    padding-top: 3vw;
+}
+
+.subtext{
+    font-size: 1vw;
+    text-align: center;
+}
+
+.flex{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 70%;
+}
+.cart{
+    width: 30%;
+}
+.box{
+    width: 400px;
+    margin: 2vw;
+    background-color: #f1e5ba;
+}
+.img{
+    width: 400px;
+    /* width: 10vw; */
 
 }
 
-.BakeryItem {
-  
-}
